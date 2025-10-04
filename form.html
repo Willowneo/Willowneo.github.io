@@ -24,12 +24,12 @@
 
         <section class="policies">
             <ul>
-                <li>Check-in Time</li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Check-in Time after 3:00pm on</li>
+                <li>Check-out time by 11:00am or charges are incurred</li>
+                <li>Breakfast and afternoon tea/snacks included in cost</li>
+                <li>Proof of COVID-19 Vaccination required. Upload image(s) below</li>
+                <li>50% deposit required at booking</li>
+                <li>Cancellations less than 72 hours ahead of check-in forfeit 50% of deposit</li>
             </ul>
         </section>
 
@@ -46,7 +46,41 @@
                     <label for="lastName">Last Name:</label>
                     <input type="text" name="lastName" id="lastName" placeholder="last name" required>
                 </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="email@example.com" size="30" required>
+                </div>
       
+                <div>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" placeholder="phone" required">
+                </div>
+
+                <div>
+                    <label for="meeting-time">Check-in Date</label>
+                    <input type="datetime-local" id="meeting-time" name="meeting-time" value="0000-00-00T19:30" min="0000-00-00T19:00" max="0000-00-00T19:00">
+                </div>
+
+                <div>
+                    <label for="meeting-time">Check-out Date</label>
+                    <input type="datetime-local" id="meeting-time" name="meeting-time" value="0000-00-00T19:30" min="0000-00-00T19:00" max="0000-00-00T19:00">
+                </div>
+
+                <div>
+                    <label for="guests">Number of Guests (4 is maximum)</label>
+                    <input type="number" id="guests" name="guests" min="1" max="4">
+                </div>
+
+                <div>
+                    <label for="select">Room Type</label>
+                    <select>
+                        <option disabled hidden selected>Choose One</option>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                    </select>
+                </div>
 
                 <div>
                     <div>Ocean View (additional cost)</div>
@@ -57,9 +91,41 @@
                     <input type="radio" name="view" id="No" value="no">
                 </div>
 
+                <div>
+                    <label>List Allergies or Other Requests</label>
+                    <textarea></textarea>
+                </div>
+
+                <div>
+                    <label for="proof">Upload Vaccine Proof</label>
+                    <input type="file" accept="image/png,image/jpeg">
+                </div>
+
+                <div>
+                    <input type="checkbox" id="select">
+                    <label for="select">I agree to all the terms listed above.</label>
+                </div>
+
+                <div>
+                    <label for="pass">Create a password to return. Username is your email</label>
+                    <input type="password" id="pass" name="password" minlength="8" required>
+                </div>
+
+                <div>
+                    <input type="submit">
+                </div>
+
+                <div>
+                    <input type="reset">
+                </div>
+
+
             </form>
         </section>
 
+        <footer>&copy; 2025 The Witches Tavern <br>
+                New Hartford, CT
+        </footer>
 
     </div>
 </body>
