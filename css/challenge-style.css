@@ -10,8 +10,8 @@ h1, h2, h3 {
 }
 
     h1 {
-    text-transform: uppercase; 
-    font-weight: normal;
+    text-transform: capitalize; 
+    font-weight: regular;
     letter-spacing: .1rem;
     font-size: 3.5rem;
     }
