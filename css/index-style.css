@@ -3,15 +3,105 @@ html {
     line-height: 1.5;
 }
 
-nav a:visited {
-    color: red;
+
+h1 {
+    color: #77BEF0;
+    font-style: normal;
+    text-decoration: underline dotted #FFCB61 8px;
+    text-underline-offset: 4px;
+    text-align: center;
 }
 
+h2::before,
+h2::after {
+    content: "\1F517";
+}
 
-a:hover {
+h2 {
+    font-weight: 400;
+    color: #77BEF0;
+    text-transform: lowercase;
+}
+
+p {
+    text-transform: none;
+    font-style: oblique;
+    line-height: 100%;
+    letter-spacing: 1px;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li::before,
+nav li::after {
+    content: "\1F31F";
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    font-weight: 600;
+}
+
+nav a {
+    color: #FF894F;
+}
+
+nav a:visited {
+    color: #EA5B6F;
+}
+
+nav a:hover {
     cursor:pointer;
 }
 
 nav a:hover {
     color:chocolate;
+}
+
+
+.Assignments li {
+    list-style-type: none;
+}
+
+.Assignments li::before {
+    content: "\1F31F";
+    font-size: .8rem;
+}
+
+.Assignments a {
+    color: #FF894F;
+}
+
+.Assignments a:visited {
+    color: #EA5B6F;
+}
+
+.Assignments a:hover {
+    color: chocolate;
+}
+
+
+footer {
+    color: #77BEF0;
+}
+
+footer a {
+    color: #FF894F;
+}
+
+footer a:visited {
+    color: #EA5B6F;
+}
+
+footer a:hover {
+    color: chocolate;
+}
+
+p a {
+    color: #FFCB61;
 }
