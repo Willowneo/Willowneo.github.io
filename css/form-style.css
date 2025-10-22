@@ -1,11 +1,21 @@
 html {
-  box-sizing : border-box ;
+  box-sizing: border-box;
  }
 
 * ,
-* :: before ,
-* :: after {
-  box-sizing : inherit ;
+* ::before ,
+* ::after {
+  box-sizing: inherit;
+}
+
+
+body {
+    background-color:cadetblue;
+    background-image: url(/img/moooooooon.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
