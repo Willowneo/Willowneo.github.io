@@ -13,5 +13,26 @@
 }
 */
 
+html {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  line-height: 125%;
+  color: brown;
+}
+
+* ,
+* ::before ,
+* ::after {
+  box-sizing: inherit;
+}
+
+nav {
+  background-color: burlywood;
+  text-align: center;
+}
 
 
+nav li {
+  display: inline;
+}
