@@ -121,4 +121,54 @@ header h2 {
 
 blockquote {
   clear: both;
+  width: 300px;
+  height: 280px;
+  padding: 78px 16px 0 20px;
+  border-radius: 50%;
+  background-color: bisque;
+  outline: dotted 6px goldenrod;
+  outline-offset: 10px;
+  font-family: "Croissant One", serif;
+  font-size: 1rem;
+  margin: 40px auto;
 }
+
+blockquote small {
+  text-align: right;
+}
+
+footer {
+  background-color: burlywood;
+  color: white;
+  padding: 2% 0;
+  margin-top: 10px;
+}
+
+footer a {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.col1,
+.col2,
+.col3 {
+  display: block;
+  float: left;
+  width: 33%;
+}
+
+.col1 a:hover,
+.col2 a:hover,
+.col3 a:hover {
+  background-color: bisque;
+  color: darkgoldenrod;
+  text-decoration: underline;
+}
+
