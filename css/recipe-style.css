@@ -164,6 +164,10 @@ footer ul {
   width: 33%;
 }
 
+footer p {
+  clear: both;
+}
+
 .col1 a:hover,
 .col2 a:hover,
 .col3 a:hover {
@@ -172,3 +176,106 @@ footer ul {
   text-decoration: underline;
 }
 
+/* media queries go below */
+
+@media (max-width: 360px) {
+
+  html {
+    line-height: 135%;
+  }
+
+  nav a {
+    padding: 5px;
+    letter-spacing: normal;
+    font-size: .9rem;
+    line-height: 1rem;
+  }
+
+  nav ul {
+    padding-left: 10px;
+  }
+
+  main {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    text-shadow: none;
+    line-height: 2rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  img {
+    float: none;
+    max-width: 60%;
+    margin-left: 20%;
+  }
+
+  .rate {
+    font-size: 1rem;
+  }
+
+  .details,
+  .ingredients,
+  .instructions,
+  .nutrition {
+    width: 90%;
+    float: none;
+  }
+
+  blockquote {
+    max-width: 90%;
+    max-height: 80%;
+    font-size: .9rem;
+  }
+
+  .col1,
+  .col2,
+  .col3 {
+    display: block;
+    float: none;
+    width: 90%;
+  }
+
+  footer {
+    font-size: .8rem;
+  }
+
+}
+
+
+@media (max-width: 810px) {
+
+  nav a {
+    letter-spacing: normal;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  main {
+    width: 95%;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+  }
+
+    .rate {
+    font-size: 1.1rem;
+  }
+
+  .details,
+  .ingredients,
+  .instructions,
+  .nutrition {
+    width: 90%;
+    float: none;
+  }
+
+  footer {
+    font-size: 1rem;
+  }
+
+}
