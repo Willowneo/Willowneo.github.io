@@ -172,3 +172,8 @@ p {
 p a {
     color: #FFCB61;
 }
+
+.intro-paragraph {
+    width: 40%;
+    font-size: 1.5rem;
+}
