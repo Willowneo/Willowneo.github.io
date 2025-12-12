@@ -1,0 +1,125 @@
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    color:darkslategray;
+}
+
+:root {
+    --font-size: 1vw;
+    --color-blue: lightblue;
+    --color-pink: rgb(157, 171, 248);
+}
+
+    nav {
+        background-image: linear-gradient(to bottom right, var(--color-blue), var(--color-pink));
+    }
+
+    nav li {
+        list-style-type: none;
+    }
+
+    nav li::before,
+    nav li::after {
+        content: "\1F31F";
+        padding: 10px;
+    }
+
+    nav {
+        text-align: center;
+        background-color: #77BEF0;
+        position: sticky;
+        top: 0;
+        padding: .1px;
+    }
+
+    nav a {
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    nav li {
+    display: inline;
+    padding: 10px;
+    }
+
+    nav a {
+        color: white;
+    }
+
+    nav a:visited {
+        color: lavender;
+    }
+
+    nav a:hover {
+        cursor: pointer;
+    }
+
+    nav a:hover {
+        color: purple;
+    }
+
+
+    h1 {
+        font-size: calc(var(--font-size) * 6);
+        background-image: linear-gradient(60deg, var(--color-blue), var(--color-pink));
+        background-clip: text;
+        color: transparent;
+        text-transform: uppercase; 
+        font-weight: regular;
+        letter-spacing: .1rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    img {
+        float: left;
+        max-width: 20%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-radius: 70%;
+        box-shadow: 3px 5px 3px #ccc;
+        shape-outside: circle(40%);
+    }
+
+    .welcome {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-top: 10%;
+    }
+
+    .intro {
+        font-size: 1.5rem;
+        margin-right: 10%;
+    }
+
+    .journey {
+        font-size: 1.1rem;
+        margin: 18% 5% 5% 5%;
+        margin-bottom: 4%;
+        clear: both;
+    }
+
+    .credentials {
+        font-size: 1.1rem;
+        margin: 0 5% 5% 5%;
+        margin-bottom: 4%;
+        clear: both;
+    }
+
+
+blockquote {
+    clear: both;
+    color: floralwhite;
+    width: 200px;
+    height: 180px;
+    padding: 78px 16px 0 20px;
+    border-radius: 50%;
+    background-color: var(--color-pink);
+    font-family: "Croissant One", serif;
+    font-size: 1.1rem;
+    margin: 40px auto;
+}
+
+blockquote small {
+  text-align: right;
+}
