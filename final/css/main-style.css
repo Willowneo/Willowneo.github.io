@@ -36,11 +36,8 @@ h1 {
 
 
 img {
-  float: left;
-  max-width: 20%;
-  margin-left: 5%;
+  margin-left: 39%;
   margin-right: 5%;
-  position: relative;
 }
 
 .fade-img {
@@ -57,12 +54,14 @@ img {
     }
 }
 
-p {
+.intro-paragraph {
     text-transform: none;
+    text-align: center;
     font-style: oblique;
     line-height: 100%;
     letter-spacing: 1px;
     margin-top: 5%;
+    font-size: 2rem;
 }
 
 nav {
@@ -113,3 +112,19 @@ nav a:hover {
     color: purple;
 }
 
+footer {
+    color: #77BEF0;
+    text-align: center;
+}
+
+footer a:visited {
+    color: lavender
+}
+
+footer a:hover {
+    color: purple;
+}
+
+p {
+    text-align: center;
+}
