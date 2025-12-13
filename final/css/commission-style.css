@@ -3,12 +3,6 @@ html {
     font-family: "Montserrat", sans-serif;
 }
 
-*, 
-* ::before, 
-* ::after {
-    box-sizing: inherit;
-}
-
 :root {
     --font-size: 1vw;
     --color-blue: lightblue;
