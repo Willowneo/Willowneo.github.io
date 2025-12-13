@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+*, 
+* ::before, 
+* ::after {
+    box-sizing: inherit;
+}
+
+:root {
+    --font-size: 1vw;
+    --color-blue: lightblue;
+    --color-pink: rgb(157, 171, 248);
+}
+
+nav {
+    background-image: linear-gradient(to bottom right, var(--color-blue), var(--color-pink));
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li::before,
+nav li::after {
+    content: "\1F31F";
+    padding: 10px;
+}
+
+nav {
+    text-align: center;
+    background-color: #77BEF0;
+    position: sticky;
+    top: 0;
+    padding: .1px;
+}
+
+nav a {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+nav li {
+  display: inline;
+  padding: 10px;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:visited {
+    color: lavender;
+}
+
+nav a:hover {
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: purple;
+}
+
