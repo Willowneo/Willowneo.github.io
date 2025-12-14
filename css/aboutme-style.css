@@ -20,7 +20,7 @@ html {
 
     nav li::before,
     nav li::after {
-        content: "\1F31F";
+        content: "\2665";
         padding: 10px;
     }
 
