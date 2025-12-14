@@ -146,6 +146,25 @@ input[type=reset] {
 }
 
 
+footer {
+    color: #77BEF0;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.info a:visited {
+    color: lavender
+}
+
+.info a:hover {
+    color: purple;
+}
+
+.top-link {
+    font-size: .8rem;
+}
+
+
 
 
 
