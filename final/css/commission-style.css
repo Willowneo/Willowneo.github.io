@@ -126,6 +126,10 @@ input[type=radio] {
   cursor: pointer;
 }
 
+input[type=checkbox] {
+  margin-left: 19.5%;
+}
+
 
 input[type=submit],
 input[type=reset] {
@@ -142,6 +146,6 @@ input[type=reset] {
 }
 
 
-button[type=submit] {
-  margin-top: 2rem;
-}
+
+
+
