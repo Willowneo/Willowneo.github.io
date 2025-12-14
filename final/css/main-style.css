@@ -1,0 +1,130 @@
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+}
+
+:root {
+    --font-size: 1vw;
+    --color-blue: lightblue;
+    --color-pink: rgb(157, 171, 248);
+}
+
+h1 {
+    color: var(--color-blue);
+    font-style: normal;
+    font-size: 7rem;
+    text-align: center;
+}
+
+.fade-text {
+    animation: fadetxt linear 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadetxt {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        font-size: 3;
+    }
+    100% {
+        opacity: 1;
+        font-size: 5rem;
+    }
+}
+
+
+img {
+  margin-left: 42%;
+}
+
+.fade-img {
+    animation: fadeimg ease-in 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeimg {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.intro-paragraph {
+    text-transform: none;
+    text-align: center;
+    font-style: oblique;
+    line-height: 100%;
+    letter-spacing: 1px;
+    margin: 5% 10% 5% 10%;
+    font-size: 2rem;
+}
+
+nav {
+    background-image: linear-gradient(to bottom right, var(--color-blue), var(--color-pink));
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li::before,
+nav li::after {
+    content: "\1F31F";
+    padding: 10px;
+}
+
+nav {
+    text-align: center;
+    background-color: #77BEF0;
+    position: sticky;
+    top: 0;
+    padding: .1px;
+}
+
+nav a {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+nav li {
+  display: inline;
+  padding: 10px;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:visited {
+    color: lavender;
+}
+
+nav a:hover {
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: purple;
+}
+
+footer {
+    color: #77BEF0;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+footer a:visited {
+    color: lavender
+}
+
+footer a:hover {
+    color: purple;
+}
+
+p {
+    text-align: center;
+}

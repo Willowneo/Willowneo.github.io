@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commission</title>
+        <link rel="stylesheet" href="/final/css/commission-style.css">
+</head>
+    <body>
+    <div id="wrapper">
+
+        <nav>
+            <ul>
+                <li><a href="/final/main.html">Home</a></li>
+                <li><a href="/final/aboutme.html">About Me</a></li>
+                <li><a href="/final/gd.html">Graphic Design</a></li>
+                <li><a href="/final/commission.html">Commission</a></li>
+                <li><a href="/final/illustration.html">Illustration</a></li>
+            </ul>
+        </nav>
+
+         <header>
+            <h1>Ask for Commission</h1>
+            <h2>Base Pricing</h2>
+        </header>
+
+            <section class="pricing">
+                <ul>
+                    <li><strong>$25</strong> - emote pack of 5 <small>or</small> personal logo</li>
+                    <li><strong>$35</strong> - business card <small>or</small> twitch screen(1)</li>
+                    <li><strong>$45</strong> - event poster <small>or</small> banner</li>
+                </ul>
+            </section>
+
+        <header>
+            <h2>Commission Policies</h2>
+        </header>
+
+            <section class="policy">
+                <ul>
+                    <li>Additional revisions beyond the initial 3 will have a $1 fee each</li>
+                    <li>Complex designs may require additional fees, to be discussed with customer during design period</li>
+                    <li>Any ask to use AI will result in an immediate termination of commission</li>
+                </ul>
+            </section>
+
+        <section class="commission-form">
+            <form method="post" name="commission" data-netlify="true">
+      
+      
+                <div>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firtName" id="firstName" placeholder="first name" required>
+                </div>
+
+                <div>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="last name" required>
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="email@example.com" size="30" required>
+                </div>
+      
+                <div>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" placeholder="phone" required>
+                </div>
+
+                <div>
+                    <label for="due-date">Due by Date</label>
+                    <input type="datetime-local" id="due-date" name="due-date" value="0000-00-00T19:30" min="0000-00-00T19:00" max="0000-00-00T19:00">
+                </div>
+
+                <div>
+                    <label for="price">Price Point($)</label>
+                    <input type="number" id="price" name="price" min="25" max="45">
+                </div>
+
+                <div>
+                    <label for="select">Commission Type</label>
+                    <select>
+                        <option disabled hidden selected>Choose One</option>
+                        <option>emote(5)</option>
+                        <option>logo</option>
+                        <option>business card</option>
+                        <option>screen(1)</option>
+                        <option>poster</option>
+                        <option>banner</option>
+                    </select>
+                </div>
+
+                <div class="radio">
+                    <span>Ocean View (add*l cost)</span>
+                    <label for="view">Yes</label>
+                    <input type="radio" name="view" id="Yes" value="yes">
+
+                    <label for="view">No</label>
+                    <input type="radio" name="view" id="No" value="no">
+                </div>
+
+                <div>
+                    <label>Anything I should know?</label>
+                    <textarea></textarea>
+                </div>
+
+                <div>
+                    <label for="ref">Any reference?</label>
+                    <input type="file" accept="image/png,image/jpeg">
+                </div>
+
+                <div>
+                    <input type="checkbox" id="select">
+                    <label for="select">I agree to all the terms listed above.</label>
+                </div>
+
+                <div>
+                    <input type="submit">
+                </div>
+
+                <div>
+                    <input type="reset">
+                </div>
+
+            </form>
+    
+        </div>
+    </body>
+</html>
