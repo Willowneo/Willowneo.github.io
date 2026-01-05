@@ -103,9 +103,19 @@ html {
         margin-left: 5%;
     }
 
-.piece1, .piece2, .piece3, .piece4, .piece5, .piece6, .piece7, .piece8, .piece9, .piece10, .piece11, .piece12 {
+.piece1, .piece2, .piece3, .piece4 {
     display: inline-block;
-    margin: 2% 5% 5% 8%;
+    margin: 2% 1% 5% 5%;
+}
+
+.piece5, .piece6, .piece7, .piece8 {
+    display: inline-block;
+    margin: 2% 1% 5% 4%;
+}
+
+.piece9, .piece10, .piece11, .piece12 {
+    display: inline-block;
+    margin: 2% 1% 5% 4%;
 }
 
 
